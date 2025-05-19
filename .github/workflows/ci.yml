@@ -17,5 +17,4 @@ jobs:
         shell: bash
         run: |
           cd build
-          ls 
-          ls ci_cd_projeto
+          ls
