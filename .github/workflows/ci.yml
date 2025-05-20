@@ -46,11 +46,11 @@ jobs:
             cd build/ci_cd_projeto/frontend
             npm install
             npm run build
-        - name: Compacta(Zip) buid
+        - name: Compacta(Zip) build
           shell: bash
           run: |
             cd build/ci_cd_projeto/frontend
-            zip -r frontend.zip dist
+            zip -r frontend.zip dist
         - name: Upload Zip Frontend
           uses: actions/upload-artifact@v4
           with:
